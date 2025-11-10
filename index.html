@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Slider Section -->
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="images/member1.jpg" alt="Member 1">
+                <h3>Nguyễn Văn A</h3>
+                <p>Developer</p>
+            </div>
+            <div class="slide">
+                <img src="images/member2.jpg" alt="Member 2">
+                <h3>Trần Thị B</h3>
+                <p>Designer</p>
+            </div>
+            <div class="slide">
+                <img src="images/member3.jpg" alt="Member 3">
+                <h3>Lê Văn C</h3>
+                <p>Project Manager</p>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button onclick="slide('left')"><i class="fas fa-chevron-left"></i></button>
+            <button onclick="slide('right')"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </div>
+
+    <!-- Profile Section -->
+    <section class="profiles">
+        <a href="profile.html" class="profile-link">
+        <div class="profile-card">
+            <img src="images/member1.jpg" alt="Member 1" class="profile-image">
+            <div class="profile-info">
+                <h2>Nguyễn Văn A</h2>
+                <p><strong>Vị trí:</strong> Developer</p>
+                <p><strong>Chuyên môn:</strong> Frontend Development, React, Vue.js</p>
+                <p><strong>Kinh nghiệm:</strong> 5 năm trong lĩnh vực phát triển web</p>
+                <p><strong>Giới thiệu:</strong> Là một developer với niềm đam mê về công nghệ và sáng tạo. Luôn tìm tòi học hỏi những công nghệ mới để áp dụng vào dự án.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        </a>
+
+        <div class="profile-card">
+            <img src="images/member2.jpg" alt="Member 2" class="profile-image">
+            <div class="profile-info">
+                <h2>Trần Thị B</h2>
+                <p><strong>Vị trí:</strong> Designer</p>
+                <p><strong>Chuyên môn:</strong> UI/UX Design, Graphic Design</p>
+                <p><strong>Kinh nghiệm:</strong> 3 năm trong lĩnh vực thiết kế</p>
+                <p><strong>Giới thiệu:</strong> Nhà thiết kế với khả năng sáng tạo độc đáo và hiểu biết sâu sắc về trải nghiệm người dùng. Luôn đặt người dùng làm trung tâm trong mọi thiết kế.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <img src="images/member3.jpg" alt="Member 3" class="profile-image">
+            <div class="profile-info">
+                <h2>Lê Văn C</h2>
+                <p><strong>Vị trí:</strong> Project Manager</p>
+                <p><strong>Chuyên môn:</strong> Agile Management, Scrum Master</p>
+                <p><strong>Kinh nghiệm:</strong> 7 năm trong quản lý dự án</p>
+                <p><strong>Giới thiệu:</strong> Người quản lý dự án với kinh nghiệm dày dặn trong việc dẫn dắt các dự án công nghệ. Có khả năng điều phối và tối ưu hóa quy trình làm việc.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <img src="images/member3.jpg" alt="Member 4" class="profile-image">
+            <div class="profile-info">
+                <h2>Lê Văn C</h2>
+                <p><strong>Vị trí:</strong> Project Manager</p>
+                <p><strong>Chuyên môn:</strong> Agile Management, Scrum Master</p>
+                <p><strong>Kinh nghiệm:</strong> 7 năm trong quản lý dự án</p>
+                <p><strong>Giới thiệu:</strong> Người quản lý dự án với kinh nghiệm dày dặn trong việc dẫn dắt các dự án công nghệ. Có khả năng điều phối và tối ưu hóa quy trình làm việc.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <img src="images/member3.jpg" alt="Member 5" class="profile-image">
+            <div class="profile-info">
+                <h2>Lê Văn C</h2>
+                <p><strong>Vị trí:</strong> Project Manager</p>
+                <p><strong>Chuyên môn:</strong> Agile Management, Scrum Master</p>
+                <p><strong>Kinh nghiệm:</strong> 7 năm trong quản lý dự án</p>
+                <p><strong>Giới thiệu:</strong> Người quản lý dự án với kinh nghiệm dày dặn trong việc dẫn dắt các dự án công nghệ. Có khả năng điều phối và tối ưu hóa quy trình làm việc.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="profile-card">
+            <img src="images/member3.jpg" alt="Member 6" class="profile-image">
+            <div class="profile-info">
+                <h2>Lê Văn C</h2>
+                <p><strong>Vị trí:</strong> Project Manager</p>
+                <p><strong>Chuyên môn:</strong> Agile Management, Scrum Master</p>
+                <p><strong>Kinh nghiệm:</strong> 7 năm trong quản lý dự án</p>
+                <p><strong>Giới thiệu:</strong> Người quản lý dự án với kinh nghiệm dày dặn trong việc dẫn dắt các dự án công nghệ. Có khả năng điều phối và tối ưu hóa quy trình làm việc.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let currentPosition = 0;
+        const slides = document.querySelectorAll('.slide');
+        const slider = document.querySelector('.slider');
+        
+        function slide(direction) {
+            const slideWidth = slides[0].offsetWidth + 20; // width + margin
+            const maxPosition = -(slides.length - 1) * slideWidth;
+            
+            if (direction === 'left' && currentPosition < 0) {
+                currentPosition += slideWidth;
+            } else if (direction === 'right' && currentPosition > maxPosition) {
+                currentPosition -= slideWidth;
+            }
+            
+            slider.style.transform = `translateX(${currentPosition}px)`;
+        }
+
+        // Auto slide
+        setInterval(() => {
+            const slideWidth = slides[0].offsetWidth + 20;
+            const maxPosition = -(slides.length - 1) * slideWidth;
+            
+            if (currentPosition <= maxPosition) {
+                currentPosition = 0;
+            } else {
+                currentPosition -= slideWidth;
+            }
+            
+            slider.style.transform = `translateX(${currentPosition}px)`;
+        }, 5000);
+    </script>
+</body>
+</html>
